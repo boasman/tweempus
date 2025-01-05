@@ -1,15 +1,13 @@
 <section>
 
     <div class="header">
-        <img src="images/google-icon.png" alt="Imagen de un twimp">
-        <a href="www.campusmvp.es">by David</a>
-        <div class="date">Published on 01/01/1970</div>
+        <img [src]="twimp.author.image" alt="Imagen de un twimp">
+        <a [href]="twimp.author.url">by {{twimp.author.fullName}}</a>
+        <div class="date">Published on {{twimp.timestamp}}</div>
     </div>
 
     <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur sodales libero, sit amet posuere arcu
-        consectetur
-        ut. Nam volutpat ligula ac nunc consectetur vestibulum.
+        {{twimp.content}}
     </div>
 
     <hr class="line">
