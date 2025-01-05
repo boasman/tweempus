@@ -1,28 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { HeaderComponent } from "./core/header/header.component";
-import { NavComponent } from "./core/nav/nav.component";
-import { HolamundoComponent } from './holamundo/holamundo.component';
-import { PadreComponent } from './padre/padre.component';
-import { HijoComponent } from "./hijo/hijo.component";
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeaderComponent } from './core/header/header.component';
+import { NavComponent } from './core/nav/nav.component';
 
 @Component({
   selector: 'tweempus-root',
   standalone: true,
-  imports: [
-    RouterOutlet,
-    HeaderComponent,
-    NavComponent,
-    HolamundoComponent,
-    PadreComponent,
-    HijoComponent
-],
+  imports: [RouterOutlet, DashboardComponent, HeaderComponent, NavComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'tweempus';
-
-  usernName:string = "Maria"
-}
+export class AppComponent { }

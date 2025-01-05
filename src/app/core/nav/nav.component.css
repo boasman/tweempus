@@ -2,36 +2,38 @@ nav {
     width: 100%;
     background: white;
     overflow: hidden;
-    margin-top: 1.2rem;
+    margin-bottom: 1.2em;
     box-shadow: 0px 4px 5px 1px rgba(100, 100, 100, 0.35);
 }
 
 nav>ul {
-    width: 100%;;
+    width: 100%;
     overflow: hidden;
     max-width: 1024px;
     margin: 0 auto;
 }
 
-ul>li{
+ul>li {
     display: inline-block;
     width: 50%;
     box-sizing: border-box;
     float: left;
     background-color: #fff;
-    text-align: center; 
+    text-align: center;
 }
 
-li>a{
+li>a {
     width: 100%;
     font-weight: bold;
     border-bottom: 4px solid #fff;
     display: inline-block;
     float: left;
-    padding: 0.5rem;
+    padding: 0.5em;
     list-style-position: inside;
+    background-color: white;
     color: #666;
-    margin-right: 0.2rem;
+    border-bottom: 4px solid #fff;
+    margin-right: 0.2em;
     font-weight: bold;
     box-sizing: border-box;
     text-align: center;
@@ -40,7 +42,7 @@ li>a{
 
 a:hover,
 a:focus,
-.nav_list_item-selected a{
+.nav_list_item-selected a {
     color: #d94f5c;
     border-color: #d94f5c;
 }

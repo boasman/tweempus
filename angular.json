@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tweempus": {
+    "Tweempus": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "tweempus:build:production"
+              "buildTarget": "Tweempus:build:production"
             },
             "development": {
-              "buildTarget": "tweempus:build:development"
+              "buildTarget": "Tweempus:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -92,8 +92,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "4f010ba7-2f9f-4e97-b2f1-de24166a08ed"
   }
 }

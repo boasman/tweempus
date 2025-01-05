@@ -1,9 +1,9 @@
-section{
+section {
     width: 100%;
     background: white;
 }
 
-section > h2{
+section > h2 {
     margin: 0;
     padding: 0.5em 3em 0;
     color: #d94f5c;
@@ -12,7 +12,7 @@ section > h2{
     text-indent: -9999px;
 }
 
-section > button{
+section > button {
     position: absolute;
     top: 13px;
     right: 15px;
